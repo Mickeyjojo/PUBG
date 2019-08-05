@@ -1,0 +1,61 @@
+{
+	"Default__Item_Weapon_UziPro_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Item_Weapon_UZI_C",
+		"AttachmentTagData": [
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Magazine",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Stock",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::UpperRail",
+				"StrucName": "WeaponAttachmentTagData"
+			},
+			{
+				"AttachableTags": [],
+				"AttachmentSlotID": "EWeaponAttachmentSlotID::Angled",
+				"StrucName": "WeaponAttachmentTagData"
+			}
+		],
+		"ClassName": "Item_Weapon_UziPro_C",
+		"ExportName": "Default__Item_Weapon_UziPro_C",
+		"ItemDetailedName": {
+			"Key": "3D5A27494E5573E54D7B4B8348BCC0BD",
+			"Namespace": "[C000E6F14DE2720DABB3EDB36A9977DB]",
+			"SourceString": "UZI Pro",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemName": {
+			"Key": "9C9FCB4A46C56EC3407B9F8DD7FD5824",
+			"Namespace": "[C000E6F14DE2720DABB3EDB36A9977DB]",
+			"SourceString": "UZI Pro",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"WeaponType": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "WeapUziPro_C",
+			"name": "WeapUziPro_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeapUziPro.uasset"
+		}
+	},
+	"Item_Weapon_UziPro_C": {
+		"@Remaining": 68,
+		"@SuperName": "Item_Weapon_UZI_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Item_Weapon_UziPro_C"
+	}
+}

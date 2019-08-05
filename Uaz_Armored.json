@@ -1,0 +1,602 @@
+{
+	"Armor_Mesh": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Uaz_Armored_C.Armor_Mesh"
+	},
+	"Armor_Mesh_GEN_VARIABLE": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StaticMeshComponent",
+		"BodyInstance": {
+			"CollisionEnabled": "ECollisionEnabled::QueryOnly",
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_Vehicle",
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "StaticMeshComponent",
+		"ExportName": "Uaz_Armored_C.Armor_Mesh_GEN_VARIABLE",
+		"StaticMesh": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMesh",
+			"importName": "Armor_Uaz",
+			"name": "Armor_Uaz",
+			"packagePath": "/Game/Vehicles/Uaz_469/Meshes/Armor_Uaz.uasset"
+		}
+	},
+	"BuffComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "BuffComponent",
+		"ClassName": "BuffComponet",
+		"ExportName": "Default__Uaz_Armored_C.BuffComponent"
+	},
+	"BuoyancyForceComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "BuoyancyForceComponent",
+		"AttachParent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"ClassName": "TslBuoyancyForceComponent",
+		"ExportName": "Default__Uaz_Armored_C.BuoyancyForceComponent"
+	},
+	"DefaultSceneRoot_GEN_VARIABLE": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SceneComponent",
+		"ClassName": "SceneComponent",
+		"ExportName": "Uaz_Armored_C.DefaultSceneRoot_GEN_VARIABLE"
+	},
+	"Default__Uaz_Armored_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__Uaz_C_01_C",
+		"BuffComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "BuffComponet",
+			"exportName": "Default__Uaz_Armored_C.BuffComponent",
+			"name": "BuffComponent"
+		},
+		"BuoyancyForceComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslBuoyancyForceComponent",
+			"exportName": "Default__Uaz_Armored_C.BuoyancyForceComponent",
+			"name": "BuoyancyForceComponent"
+		},
+		"ClassName": "Uaz_Armored_C",
+		"ExportName": "Default__Uaz_Armored_C",
+		"GamePadInputAixsComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "GamePadInputAixsComponent",
+			"exportName": "Default__Uaz_Armored_C.GamePadInputAixsComponent",
+			"name": "GamePadInputAixsComponent"
+		},
+		"Mesh": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"RadioAudioComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleRadioComponent",
+			"exportName": "Default__Uaz_Armored_C.RadioAudioComponent",
+			"name": "RadioAudioComponent"
+		},
+		"RootComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "SkeletalMeshComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleMesh",
+			"name": "VehicleMesh"
+		},
+		"TslGamepadInputComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslGamepadPawnInputComponent",
+			"exportName": "Default__Uaz_Armored_C.GamepadInputComponent",
+			"name": "GamepadInputComponent"
+		},
+		"TslHornComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslHornComponent",
+			"exportName": "Default__Uaz_Armored_C.HornComponent",
+			"name": "HornComponent"
+		},
+		"TslPawnInputBindingComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslPawnInputBindingComponent",
+			"exportName": "Default__Uaz_Armored_C.PawnInputBindingComponent",
+			"name": "PawnInputBindingComponent"
+		},
+		"VehicleCommonComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleCommonComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleCommonComponent",
+			"name": "VehicleCommonComponent"
+		},
+		"VehicleEffectComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleEffectComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleEffectComponent",
+			"name": "VehicleEffectComponent"
+		},
+		"VehicleHitComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleHitComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleHitComponent",
+			"name": "VehicleHitComponent"
+		},
+		"VehicleMovement": {
+			"StrucName": "ObjectProperty",
+			"className": "TslWheeledVehicleMovement",
+			"exportName": "Default__Uaz_Armored_C.MovementComp",
+			"name": "MovementComp"
+		},
+		"VehicleSeatComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSeatComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleSeatComponent",
+			"name": "VehicleSeatComponent"
+		},
+		"VehicleSyncComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleSyncComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleSyncComponent",
+			"name": "VehicleSyncComponent"
+		},
+		"VehicleXRayComponent": {
+			"StrucName": "ObjectProperty",
+			"className": "TslVehicleXRayComponent",
+			"exportName": "Default__Uaz_Armored_C.VehicleXRayComponent",
+			"name": "VehicleXRayComponent"
+		}
+	},
+	"FrontBlocker": {
+		"@Remaining": 28,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__ObjectProperty",
+		"ClassName": "ObjectProperty",
+		"ExportName": "Uaz_Armored_C.FrontBlocker"
+	},
+	"FrontBlocker_GEN_VARIABLE": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__BoxComponent",
+		"BodyInstance": {
+			"CollisionProfileName": "Custom",
+			"CollisionResponses": {
+				"StrucName": "CollisionResponse",
+				"value": "*** UNKNOWN STRUCT FCollisionResponse ***"
+			},
+			"ObjectType": "ECC_WorldStatic",
+			"PhysMaterialOverride": {
+				"StrucName": "ObjectProperty",
+				"className": "PhysicalMaterial",
+				"importName": "PhysMat_Metal",
+				"name": "PhysMat_Metal",
+				"packagePath": "/Game/Environment/PhysicalMaterials/PhysMat_Metal.uasset"
+			},
+			"StrucName": "BodyInstance"
+		},
+		"ClassName": "BoxComponent",
+		"ExportName": "Uaz_Armored_C.FrontBlocker_GEN_VARIABLE",
+		"RelativeLocation": {
+			"StrucName": "Vector",
+			"value": [
+				58.9308052,
+				-0.8100176,
+				160.902069
+			]
+		},
+		"RelativeRotation": {
+			"StrucName": "Rotator",
+			"value": [
+				0,
+				28.7375488,
+				0
+			]
+		},
+		"RelativeScale3D": {
+			"StrucName": "Vector",
+			"value": [
+				0.0663524,
+				2.14981627,
+				0.726425767
+			]
+		}
+	},
+	"GamePadInputAixsComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "GamePadInputAixsComponent",
+		"ClassName": "GamePadInputAixsComponent",
+		"ExportName": "Default__Uaz_Armored_C.GamePadInputAixsComponent"
+	},
+	"GamepadInputComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "GamepadInputComponent",
+		"ClassName": "TslGamepadPawnInputComponent",
+		"ExportName": "Default__Uaz_Armored_C.GamepadInputComponent"
+	},
+	"HornComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "HornComponent",
+		"ClassName": "TslHornComponent",
+		"ExportName": "Default__Uaz_Armored_C.HornComponent"
+	},
+	"InheritableComponentHandler": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__InheritableComponentHandler",
+		"ClassName": "InheritableComponentHandler",
+		"ExportName": "Uaz_Armored_C.InheritableComponentHandler",
+		"Records": [
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 32,
+					"index": -33,
+					"name": "VehicleSeatInteractionComponent",
+					"pkgIndex": -46
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:680467F341DBA2871B80328D44393463"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BP_Uaz2_C",
+						"name": "BP_Uaz2_C",
+						"packagePath": "/Game/Vehicles/Uaz/BluePrint/BP_Uaz2.uasset"
+					},
+					"SCSVariableName": "PassengerBRSeat",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "VehicleSeatInteractionComponent",
+					"exportName": "Uaz_Armored_C.PassengerBRSeat_GEN_VARIABLE",
+					"name": "PassengerBRSeat_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 32,
+					"index": -33,
+					"name": "VehicleSeatInteractionComponent",
+					"pkgIndex": -46
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:B041C92D4D315A937382249C64BF5BF8"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BP_Uaz2_C",
+						"name": "BP_Uaz2_C",
+						"packagePath": "/Game/Vehicles/Uaz/BluePrint/BP_Uaz2.uasset"
+					},
+					"SCSVariableName": "PassengerBLSeat",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "VehicleSeatInteractionComponent",
+					"exportName": "Uaz_Armored_C.PassengerBLSeat_GEN_VARIABLE",
+					"name": "PassengerBLSeat_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			},
+			{
+				"ComponentClass": {
+					"StrucName": "ObjectProperty",
+					"className": "Class",
+					"classPackage": "/Script/CoreUObject",
+					"importIndex": 32,
+					"index": -33,
+					"name": "VehicleSeatInteractionComponent",
+					"pkgIndex": -46
+				},
+				"ComponentKey": {
+					"AssociatedGuid": {
+						"StrucName": "Guid",
+						"value": "guid:9BF64E82479462BC851BE3A2901BE31B"
+					},
+					"OwnerClass": {
+						"StrucName": "ObjectProperty",
+						"className": "BlueprintGeneratedClass",
+						"importName": "BP_Uaz2_C",
+						"name": "BP_Uaz2_C",
+						"packagePath": "/Game/Vehicles/Uaz/BluePrint/BP_Uaz2.uasset"
+					},
+					"SCSVariableName": "PassengerFRSeat",
+					"StrucName": "ComponentKey"
+				},
+				"ComponentTemplate": {
+					"StrucName": "ObjectProperty",
+					"className": "VehicleSeatInteractionComponent",
+					"exportName": "Uaz_Armored_C.PassengerFRSeat_GEN_VARIABLE",
+					"name": "PassengerFRSeat_GEN_VARIABLE"
+				},
+				"CookedComponentInstancingData": {
+					"StrucName": "BlueprintCookedComponentInstancingData",
+					"value": "*** UNKNOWN STRUCT BlueprintCookedComponentInstancingData ***"
+				},
+				"StrucName": "ComponentOverrideRecord"
+			}
+		]
+	},
+	"MovementComp": {
+		"@SuperName": "Class",
+		"@TemplateName": "MovementComp",
+		"ClassName": "TslWheeledVehicleMovement",
+		"EngineSetup": {
+			"StrucName": "VehicleEngineData",
+			"TorqueCurve": {
+				"EditorCurveData": {
+					"StrucName": "RichCurve"
+				},
+				"StrucName": "RuntimeFloatCurve"
+			}
+		},
+		"ExportName": "Default__Uaz_Armored_C.MovementComp",
+		"SteeringCurve": {
+			"EditorCurveData": {
+				"StrucName": "RichCurve"
+			},
+			"StrucName": "RuntimeFloatCurve"
+		}
+	},
+	"PassengerBLSeat_GEN_VARIABLE": {
+		"@SuperName": "Class",
+		"@TemplateName": "PassengerBLSeat_GEN_VARIABLE",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Uaz_Armored_C.PassengerBLSeat_GEN_VARIABLE",
+		"bCanAimFromSeat": false
+	},
+	"PassengerBRSeat_GEN_VARIABLE": {
+		"@SuperName": "Class",
+		"@TemplateName": "PassengerBRSeat_GEN_VARIABLE",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Uaz_Armored_C.PassengerBRSeat_GEN_VARIABLE",
+		"bCanAimFromSeat": false
+	},
+	"PassengerFRSeat_GEN_VARIABLE": {
+		"@SuperName": "Class",
+		"@TemplateName": "PassengerFRSeat_GEN_VARIABLE",
+		"ClassName": "VehicleSeatInteractionComponent",
+		"ExportName": "Uaz_Armored_C.PassengerFRSeat_GEN_VARIABLE",
+		"bCanAimFromSeat": false
+	},
+	"PawnInputBindingComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "PawnInputBindingComponent",
+		"ClassName": "TslPawnInputBindingComponent",
+		"ExportName": "Default__Uaz_Armored_C.PawnInputBindingComponent",
+		"OnOwnerPossessed": "*** Property not implemented MulticastDelegateProperty == -1",
+		"OnOwnerUnPossessed": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"RadioAudioComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "RadioAudioComponent",
+		"ClassName": "TslVehicleRadioComponent",
+		"ExportName": "Default__Uaz_Armored_C.RadioAudioComponent"
+	},
+	"SCS_Node_0": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 13,
+			"index": -14,
+			"name": "SceneComponent",
+			"pkgIndex": -45
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "SceneComponent",
+			"exportName": "Uaz_Armored_C.DefaultSceneRoot_GEN_VARIABLE",
+			"name": "DefaultSceneRoot_GEN_VARIABLE"
+		},
+		"ExportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_0",
+		"InternalVariableName": "DefaultSceneRoot",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:BFDA9DA540E98B170F3B67BE1594D498"
+		}
+	},
+	"SCS_Node_1": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 17,
+			"index": -18,
+			"name": "StaticMeshComponent",
+			"pkgIndex": -45
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "StaticMeshComponent",
+			"exportName": "Uaz_Armored_C.Armor_Mesh_GEN_VARIABLE",
+			"name": "Armor_Mesh_GEN_VARIABLE"
+		},
+		"ExportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_1",
+		"InternalVariableName": "Armor_Mesh",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:B3742BC74DEB486F509176B7495887A4"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SCS_Node_2": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SCS_Node",
+		"ClassName": "SCS_Node",
+		"ComponentClass": {
+			"StrucName": "ObjectProperty",
+			"className": "Class",
+			"classPackage": "/Script/CoreUObject",
+			"importIndex": 11,
+			"index": -12,
+			"name": "BoxComponent",
+			"pkgIndex": -45
+		},
+		"ComponentTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BoxComponent",
+			"exportName": "Uaz_Armored_C.FrontBlocker_GEN_VARIABLE",
+			"name": "FrontBlocker_GEN_VARIABLE"
+		},
+		"ExportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_2",
+		"InternalVariableName": "FrontBlocker",
+		"ParentComponentOrVariableName": "VehicleMesh",
+		"VariableGuid": {
+			"StrucName": "Guid",
+			"value": "guid:D10DB6244F1C4EDC0B56859267D5839F"
+		},
+		"bIsParentComponentNative": true
+	},
+	"SimpleConstructionScript_0": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__SimpleConstructionScript",
+		"AllNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			}
+		],
+		"ClassName": "SimpleConstructionScript",
+		"DefaultSceneRootNode": {
+			"StrucName": "ObjectProperty",
+			"className": "SCS_Node",
+			"exportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_0",
+			"name": "SCS_Node_0"
+		},
+		"ExportName": "Uaz_Armored_C.SimpleConstructionScript_0",
+		"RootNodes": [
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_1",
+				"name": "SCS_Node_1"
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "SCS_Node",
+				"exportName": "Uaz_Armored_C.SimpleConstructionScript_0.SCS_Node_2",
+				"name": "SCS_Node_2"
+			}
+		]
+	},
+	"Uaz_Armored_C": {
+		"@Remaining": 80,
+		"@SuperName": "Uaz_C_01_C",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Uaz_Armored_C",
+		"InheritableComponentHandler": {
+			"StrucName": "ObjectProperty",
+			"className": "InheritableComponentHandler",
+			"exportName": "Uaz_Armored_C.InheritableComponentHandler",
+			"name": "InheritableComponentHandler"
+		},
+		"SimpleConstructionScript": {
+			"StrucName": "ObjectProperty",
+			"className": "SimpleConstructionScript",
+			"exportName": "Uaz_Armored_C.SimpleConstructionScript_0",
+			"name": "SimpleConstructionScript_0"
+		}
+	},
+	"UserConstructionScript": {
+		"@Remaining": 41,
+		"@SuperName": "UserConstructionScript",
+		"@TemplateName": "Default__Function",
+		"ClassName": "Function",
+		"ExportName": "Uaz_Armored_C.UserConstructionScript"
+	},
+	"VehicleCommonComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleCommonComponent",
+		"CharacterDamageIgnores": [
+			"EDamageTypeCategory::Damage_Melee",
+			"EDamageTypeCategory::Damage_Punch"
+		],
+		"ClassName": "TslVehicleCommonComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleCommonComponent",
+		"HealthMax": 1500,
+		"OnBreak": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"VehicleEffectComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleEffectComponent",
+		"ClassName": "TslVehicleEffectComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleEffectComponent"
+	},
+	"VehicleHitComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleHitComponent",
+		"ClassName": "TslVehicleHitComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleHitComponent",
+		"OnCharacterHit": "*** Property not implemented MulticastDelegateProperty == -1"
+	},
+	"VehicleMesh": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleMesh",
+		"ClassName": "SkeletalMeshComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleMesh"
+	},
+	"VehicleSeatComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSeatComponent",
+		"ClassName": "TslVehicleSeatComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleSeatComponent"
+	},
+	"VehicleSyncComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleSyncComponent",
+		"ClassName": "TslVehicleSyncComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleSyncComponent"
+	},
+	"VehicleXRayComponent": {
+		"@SuperName": "Class",
+		"@TemplateName": "VehicleXRayComponent",
+		"ClassName": "TslVehicleXRayComponent",
+		"ExportName": "Default__Uaz_Armored_C.VehicleXRayComponent"
+	}
+}

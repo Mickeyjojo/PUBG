@@ -1,0 +1,50 @@
+{
+	"VehicleArmor_BRDM": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__VehicleArmorDataAsset",
+		"ClassName": "VehicleArmorDataAsset",
+		"DamageCategoryMap": {
+			"EDamageTypeCategory::Damage_Explosion_Grenade": {
+				"ConstValue": 0,
+				"ScalarValue": 0.25,
+				"StrucName": "None",
+				"bUseConstReduction": false,
+				"bUseScalarReduction": true
+			},
+			"EDamageTypeCategory::Damage_Explosion_RedZone": {
+				"ConstValue": 0,
+				"ScalarValue": 0.5,
+				"StrucName": "None",
+				"bUseConstReduction": false,
+				"bUseScalarReduction": true
+			},
+			"EDamageTypeCategory::Damage_Gun": {
+				"ConstValue": 6,
+				"ScalarValue": 1,
+				"StrucName": "None",
+				"bUseConstReduction": true,
+				"bUseScalarReduction": false
+			},
+			"EDamageTypeCategory::Damage_Melee": {
+				"ConstValue": 0,
+				"ScalarValue": 0,
+				"StrucName": "None",
+				"bUseConstReduction": false,
+				"bUseScalarReduction": true
+			},
+			"EDamageTypeCategory::Damage_Punch": {
+				"ConstValue": 0,
+				"ScalarValue": 0,
+				"StrucName": "None",
+				"bUseConstReduction": false,
+				"bUseScalarReduction": true
+			}
+		},
+		"ExportName": "VehicleArmor_BRDM",
+		"TeamSizeDamageModifier": {
+			"1": 1.8,
+			"2": 1.4,
+			"4": 1
+		}
+	}
+}
