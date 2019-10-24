@@ -90,13 +90,6 @@
 			"name": "GunImpact_Med_C",
 			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Med.uasset"
 		},
-		"LightImpactTemplate": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "GunImpact_Med_Light_C",
-			"name": "GunImpact_Med_Light_C",
-			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Med_Light.uasset"
-		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
 			"className": "WeaponMeshComponent",
@@ -373,10 +366,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 25,
-			"index": -26,
+			"importIndex": 23,
+			"index": -24,
 			"name": "SceneComponent",
-			"pkgIndex": -51
+			"pkgIndex": -47
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

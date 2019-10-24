@@ -9,13 +9,13 @@
 			"RecoilCurve": {
 				"StrucName": "ObjectProperty",
 				"className": "CurveVector",
-				"importName": "C_Recoil_Winchester",
-				"name": "C_Recoil_Winchester",
-				"packagePath": "/Game/Blueprints/Weapons/RecoilCurves/C_Recoil_Winchester.uasset"
+				"importName": "C_Recoil_686",
+				"name": "C_Recoil_686",
+				"packagePath": "/Game/Blueprints/Weapons/RecoilCurves/C_Recoil_686.uasset"
 			},
-			"RecoilHorizontalMinScalar": 0.25,
-			"RecoilSpeed_Horizontal": 8,
-			"RecoilSpeed_Vertical": 12,
+			"RecoilHorizontalMinScalar": 0.7,
+			"RecoilSpeed_Horizontal": 11,
+			"RecoilSpeed_Vertical": 13,
 			"RecoilValue_Fall": 2,
 			"RecoverySpeed_Vertical": 6,
 			"StrucName": "WeaponRecoilConfig",
@@ -25,7 +25,11 @@
 		},
 		"TrajectoryConfig": {
 			"BallisticCurve": {
-				"StrucName": "ObjectProperty"
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_S686",
+				"name": "C_Ballistic_S686",
+				"packagePath": "/Game/Blueprints/Weapons/BallisticData/C_Ballistic_S686.uasset"
 			},
 			"DamageType": {
 				"StrucName": "ObjectProperty",
@@ -36,11 +40,13 @@
 			},
 			"HitDamage": 26,
 			"InitialSpeed": 370,
+			"LowerClampDamage": 4,
 			"RangeModifier": 0.72,
 			"ReferenceDistance": 80,
 			"StrucName": "WeaponTrajectoryConfig",
 			"TravelDistanceMax": 150,
-			"bUseAdvancedBallistics": false
+			"bCanProduceCrackSound": false,
+			"bUseMaxDamageDistance": true
 		}
 	}
 }

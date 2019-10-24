@@ -102,7 +102,6 @@
 			"StrucName": "WeaponBasicAnim"
 		},
 		"WeaponConfig": {
-			"CameraDOF_Power": 0.1,
 			"StrucName": "WeaponData",
 			"WeaponClass": "EWeaponClass::Class_Pistol"
 		},

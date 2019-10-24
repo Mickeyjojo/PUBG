@@ -9,6 +9,7 @@
 				"SourceString": "Repairing Armor",
 				"StrucName": "FText::FTextHistory_Base"
 			},
+			"CastTime": 7.5,
 			"StrucName": "CastConfig"
 		},
 		"ClassName": "Vest_Repair_Kit_C",
@@ -17,25 +18,21 @@
 		"ExportName": "Default__Vest_Repair_Kit_C",
 		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Armor.icon_Special_RepairKit_Armor",
 		"ItemDescription": {
-			"Key": "99AD2CC04B2A38EB57A336892F77CFCF",
-			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
-			"SourceString": "조끼 수리",
-			"StrucName": "FText::FTextHistory_Base"
+			"Key": "K_GDU_02",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemDescriptions.NS_Item_Usable_ItemDescriptions"
 		},
 		"ItemDetailedName": {
-			"Key": "72A5FAA84DF62F776104C7911EC42C8A",
-			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
-			"SourceString": "Armor Repair Kit",
-			"StrucName": "FText::FTextHistory_Base"
+			"Key": "K_GDU_02",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemNames.NS_Item_Usable_ItemNames"
 		},
 		"ItemName": {
-			"Key": "A0C1197B4F04A733C40CFB9B20AF5980",
-			"Namespace": "[3B147F51489C3051DE6E0AB7CD29D5F3]",
-			"SourceString": "Armor Repair Kit",
-			"StrucName": "FText::FTextHistory_Base"
+			"Key": "K_GDU_02",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemNames.NS_Item_Usable_ItemNames"
 		},
-		"RepairAmount": 100,
-		"StackCount": 2,
+		"RepairAmount": 110,
 		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_RepairKit_Armor.icon_Special_RepairKit_Armor"
 	},
 	"Vest_Repair_Kit_C": {

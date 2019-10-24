@@ -27,6 +27,7 @@
 		"DroppedMesh": "AssetObject==/Game/Assets/Character/ItemSpawner/ItemSpawner_Item_Armor_Lv1.ItemSpawner_Item_Armor_Lv1",
 		"DurabilityMax": 200,
 		"EquipSlotID": "EEquipSlotID::TorsoArmor",
+		"EquipableItemLevelType": "EEquipableItemLevelType::Level1",
 		"EquipedSoundAk": {
 			"StrucName": "ObjectProperty",
 			"className": "AkAudioEvent",
@@ -35,7 +36,7 @@
 			"packagePath": "/Game/WwiseAssets/UI_Sound/UI_Item_Equip/Play_UI_Item_Equip_Armor.uasset"
 		},
 		"ExportName": "Default__Item_Armor_E_01_Lv1_C",
-		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/equipment_vest01.equipment_vest01",
+		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/EquipmentIcon_Vest_01.EquipmentIcon_Vest_01",
 		"Icon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Armor_E_01_Lv1.icon_equipment_Armor_E_01_Lv1",
 		"InventoryPutSoundAk": {
 			"StrucName": "ObjectProperty",

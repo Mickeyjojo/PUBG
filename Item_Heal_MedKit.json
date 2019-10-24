@@ -32,6 +32,7 @@
 		"@TemplateName": "Default__InstantHealItem",
 		"CastConfig": {
 			"CastAnim": "ECastAnim::Medkit",
+			"CastMaxSpeed": 1000,
 			"CastName": {
 				"Key": "CB9E9BB1413B7D6BAF085081D0A9EF56",
 				"Namespace": "[B9835A3E440A5BB8592694B0C34F49F2]",

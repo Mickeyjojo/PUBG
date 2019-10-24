@@ -67,7 +67,7 @@
 				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CSA_Shotgun_Winchester_Cycle.uasset"
 			},
 			"FireCycleDelay": 0.3,
-			"FireCycleDuration": 0.67,
+			"FireCycleDuration": 0.5,
 			"RecoilKickADS": 1,
 			"Reload": {
 				"StrucName": "ObjectProperty",
@@ -89,16 +89,16 @@
 			"ShotCameraShakeADS": {
 				"StrucName": "ObjectProperty",
 				"className": "BlueprintGeneratedClass",
-				"importName": "CS_WeapGun_Shotgun_C",
-				"name": "CS_WeapGun_Shotgun_C",
-				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+				"importName": "CS_WeapGun_Shotgun_Winchester_C",
+				"name": "CS_WeapGun_Shotgun_Winchester_C",
+				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun_Winchester.uasset"
 			},
 			"ShotCameraShakeIronsight": {
 				"StrucName": "ObjectProperty",
 				"className": "BlueprintGeneratedClass",
-				"importName": "CS_WeapGun_Shotgun_C",
-				"name": "CS_WeapGun_Shotgun_C",
-				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun.uasset"
+				"importName": "CS_WeapGun_Shotgun_Winchester_C",
+				"name": "CS_WeapGun_Shotgun_Winchester_C",
+				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Shotgun_Winchester.uasset"
 			},
 			"StrucName": "WeaponAnimConfig",
 			"WeaponReloadCharge": {
@@ -131,7 +131,7 @@
 			"BulletPerFiring": 9,
 			"BurstShots": 1,
 			"FiringBulletsSpread": 5.5,
-			"GridPelletSpreadHalfAngle": 1,
+			"GridPelletSpreadHalfAngle": 0.4,
 			"HandWeaponOffset": {
 				"StrucName": "Vector",
 				"value": [
@@ -214,6 +214,8 @@
 					]
 				}
 			},
+			"PelletGridScale": 1.1,
+			"PelletManagerSpread": 0.038,
 			"ReloadMethod": "EWeaponReloadMethod::OneByOne",
 			"ShoulderLength": 22,
 			"StrucName": "WeaponGunConfigReplacement",
@@ -222,9 +224,11 @@
 				"StrucName": "ObjectProperty"
 			},
 			"WeaponLength": 55,
+			"bCanScopeDuringWeaponCycle": true,
 			"bManualCycleAfterShot": true,
 			"bManualCycleInitialStateReady": false,
-			"bUseGridPelletSpread": true
+			"bUseGridPelletSpread": true,
+			"bUsePelletManager": true
 		}
 	}
 }

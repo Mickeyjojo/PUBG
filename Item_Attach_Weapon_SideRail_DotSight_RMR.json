@@ -304,6 +304,13 @@
 			},
 			"StrucName": "WeaponAttachmentData",
 			"ZeroingDistances": [
+				50,
+				50,
+				50,
+				50,
+				50,
+				50,
+				50,
 				50
 			],
 			"bUseDefaultReticleCaching": true,
@@ -714,6 +721,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -1139,6 +1153,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -1564,6 +1585,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -1989,6 +2017,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -2414,6 +2449,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -2839,6 +2881,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,
@@ -3264,6 +3313,13 @@
 						"StrucName": "ObjectProperty"
 					},
 					"ZeroingDistances": [
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
+						50,
 						50
 					],
 					"bIsSuppressor": false,

@@ -228,59 +228,6 @@
 		"ClassName": "BuffComponet",
 		"ExportName": "Default__PlayerPawn_v2_C.BoxComponent"
 	},
-	"BreathComponent": {
-		"@SuperName": "Class",
-		"@TemplateName": "BreathComponent",
-		"ApneaDebuff": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "Buff_DecreaseBreathInApnea_C",
-			"name": "Buff_DecreaseBreathInApnea_C",
-			"packagePath": "/Game/Blueprints/Buff/Buff_DecreaseBreathInApnea.uasset"
-		},
-		"BreathPointOffsetAtGroggy": {
-			"StrucName": "Vector",
-			"value": [
-				0,
-				0,
-				15
-			]
-		},
-		"ClassName": "CharacterBreathComponent",
-		"ComponentTags": [],
-		"ExportName": "Default__PlayerPawn_v2_C.BreathComponent",
-		"MinimumBreathStartSprinting": 0,
-		"RestorationBuff": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "Buff_RestoreBreathOverTime_C",
-			"name": "Buff_RestoreBreathOverTime_C",
-			"packagePath": "/Game/Blueprints/Buff/Buff_RestoreBreathOverTime.uasset"
-		}
-	},
-	"BreathComponentADS": {
-		"@SuperName": "Class",
-		"@TemplateName": "BreathComponentADS",
-		"ClassName": "CharacterBreathComponent",
-		"ComponentTags": [],
-		"ExportName": "Default__PlayerPawn_v2_C.BreathComponentADS",
-		"HoldBreathDebuff": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "Buff_DecreaseBreathInHolding_C",
-			"name": "Buff_DecreaseBreathInHolding_C",
-			"packagePath": "/Game/Blueprints/Buff/Buff_DecreaseBreathInHolding.uasset"
-		},
-		"MinimumBreathStartHoldingBreath": 50,
-		"MinimumBreathStartSprinting": 0,
-		"RestorationBuff": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "Buff_RestoreHoldingBreathOverTime_C",
-			"name": "Buff_RestoreHoldingBreathOverTime_C",
-			"packagePath": "/Game/Blueprints/Buff/Buff_RestoreHoldingBreathOverTime.uasset"
-		}
-	},
 	"BulletEffect_Sphere": {
 		"@SuperName": "Class",
 		"@TemplateName": "BulletEffect_Sphere",
@@ -2862,7 +2809,7 @@
 		"ClassName": "CapsuleComponent",
 		"ExportName": "Default__PlayerPawn_v2_C.CollisionCylinder",
 		"IgnoreCollisionMaskOnSweep": [
-			145
+			126
 		],
 		"bGenerateOverlapEvents": true
 	},
@@ -3155,18 +3102,6 @@
 				"packagePath": "/Game/Item/Usable/Item_Boost_EnergyDrink.uasset"
 			}
 		],
-		"BreathComponent": {
-			"StrucName": "ObjectProperty",
-			"className": "CharacterBreathComponent",
-			"exportName": "Default__PlayerPawn_v2_C.BreathComponent",
-			"name": "BreathComponent"
-		},
-		"BreathComponentADS": {
-			"StrucName": "ObjectProperty",
-			"className": "CharacterBreathComponent",
-			"exportName": "Default__PlayerPawn_v2_C.BreathComponentADS",
-			"name": "BreathComponentADS"
-		},
 		"BreathEffectMovingClass": {
 			"StrucName": "ObjectProperty",
 			"className": "BlueprintGeneratedClass",
@@ -3286,46 +3221,28 @@
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 181,
-				"index": -182,
+				"importIndex": 171,
+				"index": -172,
 				"name": "SpringArmComponent",
-				"pkgIndex": -634
+				"pkgIndex": -619
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 179,
-				"index": -180,
+				"importIndex": 169,
+				"index": -170,
 				"name": "SphereComponent",
-				"pkgIndex": -634
+				"pkgIndex": -619
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 148,
-				"index": -149,
+				"importIndex": 138,
+				"index": -139,
 				"name": "ArrowComponent",
-				"pkgIndex": -634
-			},
-			{
-				"StrucName": "ObjectProperty",
-				"className": "Class",
-				"classPackage": "/Script/CoreUObject",
-				"importIndex": 180,
-				"index": -181,
-				"name": "SplineComponent",
-				"pkgIndex": -634
-			},
-			{
-				"StrucName": "ObjectProperty",
-				"className": "Class",
-				"classPackage": "/Script/CoreUObject",
-				"importIndex": 145,
-				"index": -146,
-				"name": "CustomizableSkeletalComponent",
-				"pkgIndex": -633
+				"pkgIndex": -619
 			},
 			{
 				"StrucName": "ObjectProperty",
@@ -3333,26 +3250,44 @@
 				"classPackage": "/Script/CoreUObject",
 				"importIndex": 170,
 				"index": -171,
+				"name": "SplineComponent",
+				"pkgIndex": -619
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Class",
+				"classPackage": "/Script/CoreUObject",
+				"importIndex": 135,
+				"index": -136,
+				"name": "CustomizableSkeletalComponent",
+				"pkgIndex": -618
+			},
+			{
+				"StrucName": "ObjectProperty",
+				"className": "Class",
+				"classPackage": "/Script/CoreUObject",
+				"importIndex": 160,
+				"index": -161,
 				"name": "PhysicalAnimationComponent",
-				"pkgIndex": -634
+				"pkgIndex": -619
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 150,
-				"index": -151,
+				"importIndex": 140,
+				"index": -141,
 				"name": "CameraComponent",
-				"pkgIndex": -634
+				"pkgIndex": -619
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 213,
-				"index": -214,
+				"importIndex": 202,
+				"index": -203,
 				"name": "TslThrowableTrajectoryViewComponent",
-				"pkgIndex": -636
+				"pkgIndex": -621
 			}
 		],
 		"CrouchWaterDepth": 90,
@@ -4416,6 +4351,14 @@
 			"name": "WeaponProcessorComponent"
 		},
 		"YawStep": 35,
+		"ZombieRespawnAttachedPoint": "Socket_Lobby_Leg_S ",
+		"ZombieRespawnParticle": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "ReviveToZombieParticle_C",
+			"name": "ReviveToZombieParticle_C",
+			"packagePath": "/Game/Blueprints/Zombie/ReviveToZombieParticle.uasset"
+		},
 		"bRunTickOptimization": true,
 		"bRunTickOptimization_Anim": true,
 		"bRunTickOptimization_Movement": true
@@ -6290,10 +6233,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 175,
-			"index": -176,
+			"importIndex": 165,
+			"index": -166,
 			"name": "SceneComponent",
-			"pkgIndex": -634
+			"pkgIndex": -619
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

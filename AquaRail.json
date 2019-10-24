@@ -280,10 +280,7 @@
 			"className": "TslVehicleXRayComponent",
 			"exportName": "Default__AquaRail_C.VehicleXRayComponent",
 			"name": "VehicleXRayComponent"
-		},
-		"VelocityFOVHigh": 1200,
-		"VelocityFOVLow": 700,
-		"bUseDynamicCamera": true
+		}
 	},
 	"DriverSeat": {
 		"@Remaining": 28,
@@ -384,7 +381,7 @@
 					"importIndex": 50,
 					"index": -51,
 					"name": "SpringArmInVehicleComponent",
-					"pkgIndex": -128
+					"pkgIndex": -126
 				},
 				"ComponentKey": {
 					"AssociatedGuid": {
@@ -421,7 +418,7 @@
 					"importIndex": 50,
 					"index": -51,
 					"name": "SpringArmInVehicleComponent",
-					"pkgIndex": -128
+					"pkgIndex": -126
 				},
 				"ComponentKey": {
 					"AssociatedGuid": {
@@ -510,13 +507,6 @@
 		"MaxAcceleration": 2000,
 		"MaxRotationYawAngle": 35,
 		"RotationYawRate": 100,
-		"SlideCompensationCurve": {
-			"StrucName": "ObjectProperty",
-			"className": "CurveFloat",
-			"importName": "Curve_SlideCompensation_Jetski",
-			"name": "Curve_SlideCompensation_Jetski",
-			"packagePath": "/Game/Vehicles/CustomVehicleCurves/Curve_SlideCompensation_Jetski.uasset"
-		},
 		"StartAccelerationRate": 1450,
 		"StopAccelerationRate": 1800
 	},
@@ -606,7 +596,7 @@
 			"importIndex": 42,
 			"index": -43,
 			"name": "SceneComponent",
-			"pkgIndex": -126
+			"pkgIndex": -124
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -641,7 +631,7 @@
 			"importIndex": 64,
 			"index": -65,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -128
+			"pkgIndex": -126
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -669,7 +659,7 @@
 			"importIndex": 61,
 			"index": -62,
 			"name": "TslVehicleSinkComponent",
-			"pkgIndex": -128
+			"pkgIndex": -126
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -695,7 +685,7 @@
 			"importIndex": 46,
 			"index": -47,
 			"name": "SphereComponent",
-			"pkgIndex": -126
+			"pkgIndex": -124
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -730,7 +720,7 @@
 			"importIndex": 64,
 			"index": -65,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -128
+			"pkgIndex": -126
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -758,7 +748,7 @@
 			"importIndex": 46,
 			"index": -47,
 			"name": "SphereComponent",
-			"pkgIndex": -126
+			"pkgIndex": -124
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -784,7 +774,7 @@
 			"importIndex": 47,
 			"index": -48,
 			"name": "StaticMeshComponent",
-			"pkgIndex": -126
+			"pkgIndex": -124
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -813,7 +803,7 @@
 			"importIndex": 47,
 			"index": -48,
 			"name": "StaticMeshComponent",
-			"pkgIndex": -126
+			"pkgIndex": -124
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1110,6 +1100,19 @@
 		"@SuperName": "Class",
 		"@TemplateName": "VehicleEffectComponent",
 		"ApplyDestroyedMaterialDelay": 0.3,
+		"CameraEffectSettings": {
+			"AccelerationMovementScalar": 0.1,
+			"AccelerationMovementSizeClamp": 3,
+			"CameraOffsetInterpSpeed": 1,
+			"StrucName": "VehicleCameraEffectSettings",
+			"VelocityToFovInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					700,
+					1200
+				]
+			}
+		},
 		"ClassName": "TslVehicleEffectComponent",
 		"DestroyedMaterialMap": {
 			"0": {
@@ -1203,7 +1206,8 @@
 				"name": "P_AquaRail_Drive_Foam_BP_C",
 				"packagePath": "/Game/Effects/Clets/Particles/Vehicle/P_AquaRail_Drive_Foam_BP.uasset"
 			}
-		}
+		},
+		"bShouldTickLights": false
 	},
 	"VehicleHitComponent": {
 		"@SuperName": "Class",
@@ -1221,8 +1225,12 @@
 		"ImpulseLimitationSpeedThreshold_Console": 1667,
 		"PhysicsImpactAbsorptionRider_Console": 500000,
 		"PhysicsImpactAbsorption_Console": 1000000,
-		"PhysicsImpactRiderDamageMultiplier_Console": 0.00001,
-		"PhysicsImpactVehicleDamageMultiplier_Console": 0.0001
+		"PhysicsImpactModifier": 0.1,
+		"PhysicsImpactRiderDamageMultiplier": 0.0003,
+		"PhysicsImpactRiderDamageMultiplier_Console": 0.0003,
+		"PhysicsImpactVehicleDamageMultiplier": 0.0015,
+		"PhysicsImpactVehicleDamageMultiplier_Console": 0.0015,
+		"PhysicsImpulseMultiplier": 0.005
 	},
 	"VehicleSeatComponent": {
 		"@SuperName": "Class",

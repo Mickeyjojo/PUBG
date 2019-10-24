@@ -152,9 +152,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationKick": 1.2,
-			"CameraDOF_NearRange": 50,
-			"CameraDOF_Power": 1,
-			"CameraDOF_Range": 35,
 			"HoldBreathFOV": 52,
 			"IronSightZeroingDistances": [
 				100,

@@ -155,6 +155,34 @@
 			"name": "VehicleMesh"
 		},
 		"ClassName": "PhysicsConstraintComponent",
+		"ConstraintInstance": {
+			"ProfileInstance": {
+				"AngularDrive": {
+					"AngularDriveMode": "EAngularDriveMode::TwistAndSwing",
+					"SlerpDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive"
+					},
+					"StrucName": "AngularDriveConstraint",
+					"SwingDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive"
+					},
+					"TwistDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive",
+						"bEnablePositionDrive": true,
+						"bEnableVelocityDrive": true
+					}
+				},
+				"StrucName": "ConstraintProfileProperties",
+				"bDisableCollision": true
+			},
+			"StrucName": "ConstraintInstance"
+		},
 		"ExportName": "Default__BP_Snowmobile_C.ConstraintComponent"
 	},
 	"DefaultSceneRoot_GEN_VARIABLE": {
@@ -249,8 +277,10 @@
 			"exportName": "Default__BP_Snowmobile_C.ConstraintComponent",
 			"name": "ConstraintComponent"
 		},
-		"ContactAlpha_FallRate": 2,
-		"ContactAlpha_LowerClamp": 0.1,
+		"ConstraintDamperForce": 5,
+		"ConstraintSpringForce": 40,
+		"ContactAlpha_FallRate": 4,
+		"ContactAlpha_LowerClamp": 0,
 		"ContactAlpha_MapPitchIn": {
 			"StrucName": "Vector2D",
 			"value": [
@@ -266,6 +296,7 @@
 			]
 		},
 		"ContactAlpha_RiseRate": 4,
+		"ContactNormalInterpSpeed": 3.5,
 		"CounterSteerScalar_Default": 0.11,
 		"CounterSteerScalar_NoInput": 0.045,
 		"CounterSteerScalar_NoThrottle": 0.15,
@@ -470,10 +501,10 @@
 		"bProcessCounterSteerNoInput": true,
 		"bProcessCounterSteerOnRemote": true,
 		"bProcessCounterSteering": true,
-		"bStabilizeInAir": true,
 		"bStabilizeOnRemoteClient": true,
 		"bStabilizeOnServer": true,
 		"bStabilizeWithContactNormal": true,
+		"bUseConstraintStabilize": true,
 		"bUseFlipping": true
 	},
 	"DirverSeat": {
@@ -990,11 +1021,7 @@
 					"StrucName": "ObjectProperty"
 				},
 				"PuncturedWheelClass": {
-					"StrucName": "ObjectProperty",
-					"className": "BlueprintGeneratedClass",
-					"importName": "Tuk_Wheel_FR_Punctured_C",
-					"name": "Tuk_Wheel_FR_Punctured_C",
-					"packagePath": "/Game/Vehicles/TukTukTuk/Tuk_Wheel_FR_Punctured.uasset"
+					"StrucName": "ObjectProperty"
 				},
 				"StrucName": "WheelSetup",
 				"WheelClass": {
@@ -1250,7 +1277,7 @@
 		"Falloff": "RIF_Linear",
 		"ForceStrength": 20000000,
 		"ObjectTypesToAffect": [
-			51,
+			64,
 			2,
 			0,
 			0,
@@ -1296,10 +1323,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 73,
-			"index": -74,
+			"importIndex": 72,
+			"index": -73,
 			"name": "SceneComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1330,10 +1357,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 84,
-			"index": -85,
+			"importIndex": 83,
+			"index": -84,
 			"name": "SpringArmInVehicleComponent",
-			"pkgIndex": -264
+			"pkgIndex": -262
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1367,10 +1394,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 83,
-			"index": -84,
+			"importIndex": 82,
+			"index": -83,
 			"name": "MotorbikeVehicleSeatInteraction",
-			"pkgIndex": -264
+			"pkgIndex": -262
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1395,10 +1422,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 77,
-			"index": -78,
+			"importIndex": 76,
+			"index": -77,
 			"name": "SphereComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1430,10 +1457,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 83,
-			"index": -84,
+			"importIndex": 82,
+			"index": -83,
 			"name": "MotorbikeVehicleSeatInteraction",
-			"pkgIndex": -264
+			"pkgIndex": -262
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1458,10 +1485,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 77,
-			"index": -78,
+			"importIndex": 76,
+			"index": -77,
 			"name": "SphereComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1484,10 +1511,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 65,
-			"index": -66,
+			"importIndex": 64,
+			"index": -65,
 			"name": "CameraComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1518,10 +1545,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 84,
-			"index": -85,
+			"importIndex": 83,
+			"index": -84,
 			"name": "SpringArmInVehicleComponent",
-			"pkgIndex": -264
+			"pkgIndex": -262
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1546,10 +1573,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 65,
-			"index": -66,
+			"importIndex": 64,
+			"index": -65,
 			"name": "CameraComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1572,10 +1599,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 72,
-			"index": -73,
+			"importIndex": 71,
+			"index": -72,
 			"name": "RadialForceComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1600,10 +1627,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 78,
-			"index": -79,
+			"importIndex": 77,
+			"index": -78,
 			"name": "StaticMeshComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1629,10 +1656,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 78,
-			"index": -79,
+			"importIndex": 77,
+			"index": -78,
 			"name": "StaticMeshComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1657,10 +1684,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 64,
-			"index": -65,
+			"importIndex": 63,
+			"index": -64,
 			"name": "BoxComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1685,10 +1712,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 66,
-			"index": -67,
+			"importIndex": 65,
+			"index": -66,
 			"name": "CapsuleComponent",
-			"pkgIndex": -262
+			"pkgIndex": -260
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -2614,28 +2641,28 @@
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 81,
-				"index": -82,
+				"importIndex": 80,
+				"index": -81,
 				"name": "CarePackageItem",
-				"pkgIndex": -264
+				"pkgIndex": -262
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 99,
-				"index": -100,
+				"importIndex": 98,
+				"index": -99,
 				"name": "TslWheeledVehicle",
-				"pkgIndex": -264
+				"pkgIndex": -262
 			},
 			{
 				"StrucName": "ObjectProperty",
 				"className": "Class",
 				"classPackage": "/Script/CoreUObject",
-				"importIndex": 86,
-				"index": -87,
+				"importIndex": 85,
+				"index": -86,
 				"name": "TslFloatingVehicle",
-				"pkgIndex": -264
+				"pkgIndex": -262
 			}
 		],
 		"ImpulseLimitationSpeedThreshold_Console": 2500,

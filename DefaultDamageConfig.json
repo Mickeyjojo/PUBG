@@ -50,7 +50,7 @@
 					"EWeaponClass::Class_Pistol": 2,
 					"EWeaponClass::Class_Rifle": 2.35,
 					"EWeaponClass::Class_SMG": 1.8,
-					"EWeaponClass::Class_Shotgun": 1.5,
+					"EWeaponClass::Class_Shotgun": 1.2,
 					"EWeaponClass::Class_Sniper": 2.5
 				}
 			},
@@ -92,15 +92,15 @@
 				"StrucName": "None",
 				"WeaponClassMultipliers": {
 					"EWeaponClass::Class_Carbine": 1,
-					"EWeaponClass::Class_Crossbow": 1,
+					"EWeaponClass::Class_Crossbow": 1.4,
 					"EWeaponClass::Class_DMR": 1.05,
 					"EWeaponClass::Class_LMG": 1,
 					"EWeaponClass::Class_Melee": 1,
 					"EWeaponClass::Class_Pistol": 1,
 					"EWeaponClass::Class_Rifle": 1,
-					"EWeaponClass::Class_SMG": 1,
-					"EWeaponClass::Class_Shotgun": 1,
-					"EWeaponClass::Class_Sniper": 1.1
+					"EWeaponClass::Class_SMG": 1.05,
+					"EWeaponClass::Class_Shotgun": 0.9,
+					"EWeaponClass::Class_Sniper": 1.3
 				}
 			},
 			"EDamageZoneType::Torso": {
@@ -125,7 +125,7 @@
 					"EWeaponClass::Class_Pistol": 1,
 					"EWeaponClass::Class_Rifle": 1,
 					"EWeaponClass::Class_SMG": 1.05,
-					"EWeaponClass::Class_Shotgun": 1,
+					"EWeaponClass::Class_Shotgun": 0.9,
 					"EWeaponClass::Class_Sniper": 1.3
 				}
 			}

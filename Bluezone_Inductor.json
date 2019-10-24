@@ -1,0 +1,57 @@
+{
+	"Bluezone_Inductor_C": {
+		"@Remaining": 68,
+		"@SuperName": "MagneticInductorItem",
+		"@TemplateName": "Default__BlueprintGeneratedClass",
+		"ClassName": "BlueprintGeneratedClass",
+		"ExportName": "Bluezone_Inductor_C"
+	},
+	"Default__Bluezone_Inductor_C": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__MagneticInductorItem",
+		"CastConfig": {
+			"CastLevel": "ECastLevel::Restriction",
+			"CastName": {
+				"Key": "F81015484B19D50C1E4AF18BB5824833",
+				"Namespace": "[368F8E1E4028EFF8D81027B3C127894B]",
+				"SourceString": "operating",
+				"StrucName": "FText::FTextHistory_Base"
+			},
+			"CastPriority": "ECastPriority::Low",
+			"CastTime": 15,
+			"StrucName": "CastConfig"
+		},
+		"ClassName": "Bluezone_Inductor_C",
+		"DroppedMesh": "AssetObject==/Game/Assets/Boost_Item/Inductor/InductoR_Drop.InductoR_Drop",
+		"DroppedMeshScale": 2,
+		"ExportName": "Default__Bluezone_Inductor_C",
+		"Icon": "AssetObject==/Game/UI/item/special/icon_Special_Inductor.icon_Special_Inductor",
+		"ItemCategory": {
+			"Key": "K_GDU_03",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemNames.NS_Item_Usable_ItemNames"
+		},
+		"ItemDescription": {
+			"Key": "57A9517F49EC207CE99B0BB870BD059D",
+			"Namespace": "[368F8E1E4028EFF8D81027B3C127894B]",
+			"SourceString": "Magnetic Field Inductor",
+			"StrucName": "FText::FTextHistory_Base"
+		},
+		"ItemDetailedName": {
+			"Key": "K_GDU_03",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemDescriptions.NS_Item_Usable_ItemDescriptions"
+		},
+		"ItemName": {
+			"Key": "K_GDU_03",
+			"StrucName": "FText::FTextHistory_StringTableEntry",
+			"TableId": "/Game/Item/Usable/NS_Item_Usable_ItemNames.NS_Item_Usable_ItemNames"
+		},
+		"SortPriority": 999,
+		"SpacePerItem": 40,
+		"StackCountMax": 1,
+		"SubCategory": "Inductor",
+		"ToolTipIcon": "AssetObject==/Game/UI/item/special/icon_Special_Inductor.icon_Special_Inductor",
+		"bUsable": true
+	}
+}

@@ -12,7 +12,6 @@
 		"AttachmentData": {
 			"AttachmentSlotID": "EWeaponAttachmentSlotID::Muzzle",
 			"AttachmentTag": "MuzzleDuckbill",
-			"MultipleFiringBulletsSpread": 0.8,
 			"Name": "Item_Attach_Weapon_Muzzle_Duckbill_C",
 			"PelletGridOverride": {
 				"0": {

@@ -32,6 +32,7 @@
 		"@TemplateName": "Default__HealOverTimeItem",
 		"CastConfig": {
 			"CastAnim": "ECastAnim::FirstAid",
+			"CastMaxSpeed": 1000,
 			"CastName": {
 				"Key": "58FE6F7A4A075716B3018C9CE543AFE0",
 				"Namespace": "[6E0E302143CA287D76C74FBB92F7FBBD]",

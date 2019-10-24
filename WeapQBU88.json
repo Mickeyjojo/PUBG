@@ -105,10 +105,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 18,
-					"index": -19,
+					"importIndex": 20,
+					"index": -21,
 					"name": "AsyncStaticMeshComponent",
-					"pkgIndex": -41
+					"pkgIndex": -45
 				},
 				"StrucName": "WeaponAttachmentAssetData"
 			},
@@ -121,10 +121,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 18,
-					"index": -19,
+					"importIndex": 20,
+					"index": -21,
 					"name": "AsyncStaticMeshComponent",
-					"pkgIndex": -41
+					"pkgIndex": -45
 				},
 				"StrucName": "WeaponAttachmentAssetData"
 			}
@@ -157,6 +157,13 @@
 			"importName": "Weapons_QBU_Fire_LongTail",
 			"name": "Weapons_QBU_Fire_LongTail",
 			"packagePath": "/Game/WwiseAssets/Weapons/QBU/Weapons_QBU_Fire_LongTail.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Heavy_C",
+			"name": "GunImpact_Heavy_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Heavy.uasset"
 		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
@@ -218,9 +225,6 @@
 		},
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
-			"CameraDOF_NearRange": 20,
-			"CameraDOF_Power": 1.2,
-			"CameraDOF_Range": 10,
 			"HoldBreathFOV": 55,
 			"IronSightZeroingDistances": [
 				100,
@@ -305,10 +309,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 15,
-			"index": -16,
+			"importIndex": 17,
+			"index": -18,
 			"name": "SceneComponent",
-			"pkgIndex": -40
+			"pkgIndex": -44
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

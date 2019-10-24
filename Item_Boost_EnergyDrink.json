@@ -89,6 +89,7 @@
 		"BoostGaugeAmount": 40,
 		"CastConfig": {
 			"CastAnim": "ECastAnim::EnergyDrink",
+			"CastMaxSpeed": 1000,
 			"CastName": {
 				"Key": "D1B4AEA14C9EA0BA8799F6A0AABB6559",
 				"Namespace": "[8A96D73D4C3272C451BC318759DE48B4]",

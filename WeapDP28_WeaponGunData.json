@@ -51,6 +51,7 @@
 				"name": "CharacterWeapon_DP28_Reload_Montage",
 				"packagePath": "/Game/Animations/Battlegrounds/Anims/WeaponOperation/DP28/CharacterWeapon_DP28_Reload_Montage.uasset"
 			},
+			"CycleAfterReloadDelay": 0.25,
 			"CycleCameraAnim": {
 				"StrucName": "ObjectProperty"
 			},

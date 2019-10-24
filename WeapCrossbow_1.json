@@ -127,9 +127,6 @@
 			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Arrow.uasset"
 		},
 		"LastState": "ENUM_CrossbowState::NewEnumerator2",
-		"LightImpactTemplate": {
-			"StrucName": "ObjectProperty"
-		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
 			"className": "WeaponMeshComponent",
@@ -205,9 +202,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationWeaponClassOverride": "EWeaponClass::Class_Carbine",
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 30,
 			"DestructibleDoor": false,
 			"IronSightZeroingDistances": [
 				25

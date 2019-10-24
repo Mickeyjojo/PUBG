@@ -13,6 +13,7 @@
 				"name": "C_Recoil_Winchester",
 				"packagePath": "/Game/Blueprints/Weapons/RecoilCurves/C_Recoil_Winchester.uasset"
 			},
+			"RecoilHorizontalMinScalar": 0.5,
 			"RecoilSpeed_Horizontal": 8,
 			"RecoilSpeed_Vertical": 12,
 			"RecoilValue_Fall": 2,
@@ -24,7 +25,11 @@
 		},
 		"TrajectoryConfig": {
 			"BallisticCurve": {
-				"StrucName": "ObjectProperty"
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Winchester",
+				"name": "C_Ballistic_Winchester",
+				"packagePath": "/Game/Blueprints/Weapons/BallisticData/C_Ballistic_Winchester.uasset"
 			},
 			"DamageType": {
 				"StrucName": "ObjectProperty",
@@ -35,11 +40,13 @@
 			},
 			"HitDamage": 26,
 			"InitialSpeed": 360,
+			"LowerClampDamage": 4,
 			"RangeModifier": 0.7,
 			"ReferenceDistance": 60,
 			"StrucName": "WeaponTrajectoryConfig",
 			"TravelDistanceMax": 150,
-			"bUseAdvancedBallistics": false
+			"bCanProduceCrackSound": false,
+			"bUseMaxDamageDistance": true
 		}
 	}
 }

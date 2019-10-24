@@ -134,9 +134,9 @@
 		"ImpactTemplate": {
 			"StrucName": "ObjectProperty",
 			"className": "BlueprintGeneratedClass",
-			"importName": "GunImpact_Large_C",
-			"name": "GunImpact_Large_C",
-			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Large.uasset"
+			"importName": "GunImpact_Sniper_C",
+			"name": "GunImpact_Sniper_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Sniper.uasset"
 		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
@@ -203,9 +203,6 @@
 		},
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 45,
 			"IronSightZeroingDistances": [
 				100,
 				200,

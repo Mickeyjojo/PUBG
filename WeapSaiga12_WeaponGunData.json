@@ -112,7 +112,7 @@
 			"BulletPerFiring": 9,
 			"BurstShots": 1,
 			"FiringBulletsSpread": 5.5,
-			"GridPelletSpreadHalfAngle": 1,
+			"GridPelletSpreadHalfAngle": 0.4,
 			"HandWeaponOffset": {
 				"StrucName": "Vector",
 				"value": [
@@ -202,7 +202,8 @@
 				"StrucName": "ObjectProperty"
 			},
 			"WeaponLength": 45,
-			"bUseGridPelletSpread": true
+			"bUseGridPelletSpread": true,
+			"bUsePelletManager": true
 		}
 	}
 }

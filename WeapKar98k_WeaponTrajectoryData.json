@@ -3,6 +3,13 @@
 		"@SuperName": "Class",
 		"@TemplateName": "Default__WeaponTrajectoryData",
 		"ClassName": "WeaponTrajectoryData",
+		"ConsoleWeaponRecoilData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunRecoilData",
+			"importName": "WeapKar98k_RecoilDataConsole",
+			"name": "WeapKar98k_RecoilDataConsole",
+			"packagePath": "/Game/Blueprints/Weapons/DataAssets/WeapKar98k_RecoilDataConsole.uasset"
+		},
 		"ExportName": "WeapKar98k_WeaponTrajectoryData",
 		"RecoilConfig": {
 			"BulletsPerSwitch": 1,

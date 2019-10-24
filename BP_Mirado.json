@@ -1,6 +1,6 @@
 {
 	"BP_Mirado_C": {
-		"@Remaining": 104,
+		"@Remaining": 80,
 		"@SuperName": "VehicleBase_C",
 		"@TemplateName": "Default__BlueprintGeneratedClass",
 		"ClassName": "BlueprintGeneratedClass",
@@ -16,18 +16,6 @@
 			"className": "SimpleConstructionScript",
 			"exportName": "BP_Mirado_C.SimpleConstructionScript_0",
 			"name": "SimpleConstructionScript_0"
-		},
-		"UberGraphFramePointerProperty": {
-			"StrucName": "ObjectProperty",
-			"className": "StructProperty",
-			"exportName": "BP_Mirado_C.UberGraphFrame",
-			"name": "UberGraphFrame"
-		},
-		"UberGraphFunction": {
-			"StrucName": "ObjectProperty",
-			"className": "Function",
-			"exportName": "BP_Mirado_C.ExecuteUbergraph_BP_Mirado",
-			"name": "ExecuteUbergraph_BP_Mirado"
 		}
 	},
 	"BuffComponent": {
@@ -164,9 +152,6 @@
 			"exportName": "Default__BP_Mirado_C.PawnInputBindingComponent",
 			"name": "PawnInputBindingComponent"
 		},
-		"UberGraphFrame": {
-			"StrucName": "PointerToUberGraphFrame"
-		},
 		"VehicleCommonComponent": {
 			"StrucName": "ObjectProperty",
 			"className": "TslVehicleCommonComponent",
@@ -248,20 +233,6 @@
 		"ViewPitchMax": 50,
 		"ViewPitchMin": -50
 	},
-	"EntryPoint": {
-		"@Remaining": 24,
-		"@SuperName": "Class",
-		"@TemplateName": "Default__IntProperty",
-		"ClassName": "IntProperty",
-		"ExportName": "BP_Mirado_C.ExecuteUbergraph_BP_Mirado.EntryPoint"
-	},
-	"ExecuteUbergraph_BP_Mirado": {
-		"@Remaining": 57,
-		"@SuperName": "Class",
-		"@TemplateName": "Default__Function",
-		"ClassName": "Function",
-		"ExportName": "BP_Mirado_C.ExecuteUbergraph_BP_Mirado"
-	},
 	"FirstPersonSpringArmInVehicle_GEN_VARIABLE": {
 		"@SuperName": "Class",
 		"@TemplateName": "FirstPersonSpringArmInVehicle_GEN_VARIABLE",
@@ -339,10 +310,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 68,
-					"index": -69,
+					"importIndex": 66,
+					"index": -67,
 					"name": "SpringArmInVehicleComponent",
-					"pkgIndex": -226
+					"pkgIndex": -222
 				},
 				"ComponentKey": {
 					"AssociatedGuid": {
@@ -376,10 +347,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 68,
-					"index": -69,
+					"importIndex": 66,
+					"index": -67,
 					"name": "SpringArmInVehicleComponent",
-					"pkgIndex": -226
+					"pkgIndex": -222
 				},
 				"ComponentKey": {
 					"AssociatedGuid": {
@@ -1136,13 +1107,6 @@
 		"ClassName": "TslVehicleRadioComponent",
 		"ExportName": "Default__BP_Mirado_C.RadioAudioComponent"
 	},
-	"ReceiveBeginPlay": {
-		"@Remaining": 50,
-		"@SuperName": "ReceiveBeginPlay",
-		"@TemplateName": "Default__Function",
-		"ClassName": "Function",
-		"ExportName": "BP_Mirado_C.ReceiveBeginPlay"
-	},
 	"SCS_Node_0": {
 		"@SuperName": "Class",
 		"@TemplateName": "Default__SCS_Node",
@@ -1151,10 +1115,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 60,
-			"index": -61,
+			"importIndex": 58,
+			"index": -59,
 			"name": "SceneComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1186,10 +1150,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 81,
-			"index": -82,
+			"importIndex": 79,
+			"index": -80,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -226
+			"pkgIndex": -222
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1214,10 +1178,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 64,
-			"index": -65,
+			"importIndex": 62,
+			"index": -63,
 			"name": "SphereComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1249,10 +1213,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 81,
-			"index": -82,
+			"importIndex": 79,
+			"index": -80,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -226
+			"pkgIndex": -222
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1277,10 +1241,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 64,
-			"index": -65,
+			"importIndex": 62,
+			"index": -63,
 			"name": "SphereComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1312,10 +1276,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 81,
-			"index": -82,
+			"importIndex": 79,
+			"index": -80,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -226
+			"pkgIndex": -222
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1340,10 +1304,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 64,
-			"index": -65,
+			"importIndex": 62,
+			"index": -63,
 			"name": "SphereComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1375,10 +1339,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 81,
-			"index": -82,
+			"importIndex": 79,
+			"index": -80,
 			"name": "VehicleSeatInteractionComponent",
-			"pkgIndex": -226
+			"pkgIndex": -222
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1403,10 +1367,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 64,
-			"index": -65,
+			"importIndex": 62,
+			"index": -63,
 			"name": "SphereComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1429,10 +1393,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 65,
-			"index": -66,
+			"importIndex": 63,
+			"index": -64,
 			"name": "StaticMeshComponent",
-			"pkgIndex": -225
+			"pkgIndex": -221
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",
@@ -1667,13 +1631,6 @@
 			]
 		},
 		"TargetArmLength": 550
-	},
-	"UberGraphFrame": {
-		"@Remaining": 28,
-		"@SuperName": "Class",
-		"@TemplateName": "Default__StructProperty",
-		"ClassName": "StructProperty",
-		"ExportName": "BP_Mirado_C.UberGraphFrame"
 	},
 	"UserConstructionScript": {
 		"@Remaining": 41,

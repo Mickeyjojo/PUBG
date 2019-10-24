@@ -1,0 +1,34 @@
+{
+	"WeapKar98k_RecoilDataConsole": {
+		"@SuperName": "Class",
+		"@TemplateName": "Default__WeaponGunRecoilData",
+		"ClassName": "WeaponGunRecoilData",
+		"ExportName": "WeapKar98k_RecoilDataConsole",
+		"ParentWeaponGunData": "AssetObject==/Game/Blueprints/Weapons/DataAssets/WeapKar98k_WeaponGunData.WeapKar98k_WeaponGunData",
+		"ParentWeaponTrajectoryData": "AssetObject==/Game/Blueprints/Weapons/DataAssets/WeapKar98k_WeaponTrajectoryData.WeapKar98k_WeaponTrajectoryData",
+		"WeaponGunRecoilConfig": {
+			"DeviationRecoilGain": 1.3,
+			"DeviationRecoilGainADS": 0.02,
+			"DeviationRecoilGainAim": 0.8,
+			"RecoilCurve": {
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Recoil_K98",
+				"name": "C_Recoil_K98",
+				"packagePath": "/Game/Blueprints/Weapons/RecoilCurves/C_Recoil_K98.uasset"
+			},
+			"RecoilKickADS": 0.12,
+			"RecoilSpeed_Horizontal": 7,
+			"RecoilSpeed_Vertical": 15,
+			"RecoilValue_Climb": 0.7,
+			"RecoilValue_Fall": 3,
+			"RecoverySpeed_Vertical": 5.5,
+			"StrucName": "WeaponGunRecoilConfig",
+			"VerticalRecoilMax": 7,
+			"VerticalRecoilVariation": 0.1,
+			"VerticalRecoveryClamp": 8,
+			"VerticalRecoveryMax": 15,
+			"VerticalRecoveryModifier": 0.9
+		}
+	}
+}

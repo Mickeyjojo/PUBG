@@ -77,6 +77,13 @@
 			"packagePath": "/Game/WwiseAssets/Weapons/SawedOffShotgun/Weapon_SawedOffShotgun_Fire_LongTail.uasset"
 		},
 		"HipDuration": 1.875,
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Med_Shotgun_C",
+			"name": "GunImpact_Med_Shotgun_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Med_Shotgun.uasset"
+		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
 			"className": "WeaponMeshComponent",
@@ -134,9 +141,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationKick": 0.9,
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 30,
 			"HoldBreathFOV": 65,
 			"IronSightZeroingDistances": [
 				50
@@ -221,10 +225,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 15,
-			"index": -16,
+			"importIndex": 17,
+			"index": -18,
 			"name": "SceneComponent",
-			"pkgIndex": -40
+			"pkgIndex": -44
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

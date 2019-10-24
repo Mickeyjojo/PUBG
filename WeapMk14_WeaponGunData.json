@@ -100,12 +100,19 @@
 				"name": "CS_WeapGun_M14_762_Scope_C",
 				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_M14_762_Scope.uasset"
 			},
-			"ShotCameraShakeIronsight": {
+			"ShotCameraShakeHolo": {
 				"StrucName": "ObjectProperty",
 				"className": "BlueprintGeneratedClass",
 				"importName": "CS_WeapGun_M14_762_Ironsight_C",
 				"name": "CS_WeapGun_M14_762_Ironsight_C",
 				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_M14_762_Ironsight.uasset"
+			},
+			"ShotCameraShakeIronsight": {
+				"StrucName": "ObjectProperty",
+				"className": "BlueprintGeneratedClass",
+				"importName": "CS_WeapGun_Mk14_762_Ironsight_C",
+				"name": "CS_WeapGun_Mk14_762_Ironsight_C",
+				"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/CS_WeapGun_Mk14_762_Ironsight.uasset"
 			},
 			"StrucName": "WeaponAnimConfig",
 			"WeaponReloadCharge": {

@@ -1838,9 +1838,9 @@
 			{
 				"StrucName": "ObjectProperty",
 				"className": "MaterialInstanceConstant",
-				"importName": "Pickup_A_Exterior_05",
-				"name": "Pickup_A_Exterior_05",
-				"packagePath": "/Game/Vehicles/Pickup/Material/Pickup_A_Exterior_05.uasset"
+				"importName": "Pickup_A_Exterior_05_Closed",
+				"name": "Pickup_A_Exterior_05_Closed",
+				"packagePath": "/Game/Vehicles/Pickup/Material/Pickup_A_Exterior_05_Closed.uasset"
 			},
 			{
 				"StrucName": "ObjectProperty",

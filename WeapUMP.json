@@ -199,9 +199,6 @@
 		},
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 30,
 			"HoldBreathFOV": 60,
 			"IronSightZeroingDistances": [
 				100

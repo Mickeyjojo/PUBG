@@ -89,6 +89,34 @@
 				},
 				"AttackDecalEffectDataSet": {
 					"CactusDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -112,6 +140,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -128,9 +159,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"ConcreteDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -154,6 +214,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -170,9 +233,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"CropsDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -192,6 +284,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -208,9 +303,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"DefaultDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -230,6 +354,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -246,9 +373,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"DirtDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -272,6 +428,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -288,9 +447,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FabricDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -314,6 +502,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -330,9 +521,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FleshDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -352,6 +572,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -368,9 +591,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GlassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -390,6 +642,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -406,9 +661,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GrassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -428,6 +712,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -444,9 +731,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"IceDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -466,6 +782,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -482,9 +801,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"MetalDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -508,6 +856,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -524,9 +875,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"MudDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -546,6 +926,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -562,9 +945,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"PaperDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -588,6 +1000,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -604,9 +1019,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"RockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -626,6 +1070,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -642,9 +1089,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"RubberDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -668,6 +1144,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -684,9 +1163,108 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
+					},
+					"SandDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"SnowDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -710,6 +1288,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -726,9 +1307,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"SnowRockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -748,6 +1358,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -764,10 +1377,39 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"StrucName": "DecalEffectDataSet",
 					"WaterDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -787,6 +1429,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -803,9 +1448,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"WoodDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -829,6 +1503,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -845,7 +1522,8 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"bHideOnMovableObjects": false
 				},
@@ -861,6 +1539,34 @@
 				},
 				"AttackDecalEffectDataSet": {
 					"CactusDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -884,6 +1590,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -900,9 +1609,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"ConcreteDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -926,6 +1664,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -942,9 +1683,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"CropsDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -964,6 +1734,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -980,9 +1753,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"DefaultDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1002,6 +1804,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1018,9 +1823,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"DirtDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1044,6 +1878,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1060,9 +1897,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FabricDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1086,6 +1952,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1102,9 +1971,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FleshDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1124,6 +2022,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1140,9 +2041,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GlassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1162,6 +2092,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1178,9 +2111,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GrassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1200,6 +2162,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1216,9 +2181,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"IceDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1238,6 +2232,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1254,9 +2251,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"MetalDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1280,6 +2306,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1296,9 +2325,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"MudDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1318,6 +2376,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1334,9 +2395,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"PaperDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1360,6 +2450,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1376,9 +2469,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"RockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1398,6 +2520,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1414,9 +2539,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"RubberDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1440,6 +2594,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1456,9 +2613,108 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
+					},
+					"SandDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"SnowDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1482,6 +2738,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1498,9 +2757,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"SnowRockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1520,6 +2808,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1536,10 +2827,39 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"StrucName": "DecalEffectDataSet",
 					"WaterDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1559,6 +2879,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1575,9 +2898,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"WoodDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1601,6 +2953,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1617,7 +2972,8 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"bHideOnMovableObjects": false
 				},
@@ -1633,6 +2989,34 @@
 				},
 				"AttackDecalEffectDataSet": {
 					"CactusDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1656,6 +3040,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1672,9 +3059,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"ConcreteDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1698,6 +3114,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1714,9 +3133,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"CropsDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1736,6 +3184,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1752,9 +3203,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"DefaultDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1774,6 +3254,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1790,9 +3273,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"DirtDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1816,6 +3328,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1832,9 +3347,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FabricDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -1858,6 +3402,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1874,9 +3421,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"FleshDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1896,6 +3472,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1912,9 +3491,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GlassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1934,6 +3542,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1950,9 +3561,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"GrassDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -1972,6 +3612,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -1988,9 +3631,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"IceDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -2010,6 +3682,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2026,9 +3701,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"MetalDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -2052,6 +3756,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2068,9 +3775,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"MudDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -2090,6 +3826,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2106,9 +3845,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"PaperDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -2132,6 +3900,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2148,9 +3919,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"RockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -2170,6 +3970,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2186,9 +3989,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"RubberDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -2212,6 +4044,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2228,9 +4063,108 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
+					},
+					"SandDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
+						"FadeDuration": 1,
+						"FadeScreenSize": 0,
+						"FadeStartDelay": 1,
+						"Material": {
+							"StrucName": "ObjectProperty"
+						},
+						"NormalFadeAngle": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 85
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 95
+							}
+						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
+						"Size": {
+							"LowerBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Inclusive",
+								"Value": 5
+							},
+							"StrucName": "FloatRange",
+							"UpperBound": {
+								"StrucName": "FloatRangeBound",
+								"Type": "ERangeBoundTypes::Exclusive",
+								"Value": 10
+							}
+						},
+						"StrucName": "DecalEffectData",
+						"bReversal": false,
+						"bUseRandomInput": false,
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"SnowDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -2254,6 +4188,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2270,9 +4207,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"SnowRockDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -2292,6 +4258,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2308,10 +4277,39 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"StrucName": "DecalEffectDataSet",
 					"WaterDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 1,
@@ -2331,6 +4329,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2347,9 +4348,38 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": false,
-						"bUseRandomRoll": false
+						"bUseRandomRoll": false,
+						"bUseRicochet": false
 					},
 					"WoodDecal": {
+						"DotProductLatScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLatScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0.2
+							]
+						},
+						"DotProductLongScaleMapIn": {
+							"StrucName": "Vector2D",
+							"value": [
+								0.5,
+								0
+							]
+						},
+						"DotProductLongScaleMapOut": {
+							"StrucName": "Vector2D",
+							"value": [
+								1.5,
+								5
+							]
+						},
 						"FadeDuration": 1.5,
 						"FadeScreenSize": 0,
 						"FadeStartDelay": 35,
@@ -2373,6 +4403,9 @@
 								"Value": 95
 							}
 						},
+						"RicochetMaterial": {
+							"StrucName": "ObjectProperty"
+						},
 						"Size": {
 							"LowerBound": {
 								"StrucName": "FloatRangeBound",
@@ -2389,7 +4422,8 @@
 						"StrucName": "DecalEffectData",
 						"bReversal": false,
 						"bUseRandomInput": true,
-						"bUseRandomRoll": true
+						"bUseRandomRoll": true,
+						"bUseRicochet": false
 					},
 					"bHideOnMovableObjects": false
 				},
@@ -2582,7 +4616,7 @@
 		"@SuperName": "Class",
 		"@TemplateName": "FlashbangComponent",
 		"BlockQueryObjects": [
-			141,
+			146,
 			0,
 			0
 		],
@@ -2597,7 +4631,7 @@
 		"ExportName": "Default__WeapTacticalShield_C.FlashbangComponent",
 		"FlashMaxAngle": 180,
 		"SphereQueryObjects": [
-			233
+			238
 		]
 	},
 	"HitCollisionCylinder": {

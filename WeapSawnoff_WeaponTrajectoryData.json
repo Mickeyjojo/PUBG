@@ -29,7 +29,11 @@
 		},
 		"TrajectoryConfig": {
 			"BallisticCurve": {
-				"StrucName": "ObjectProperty"
+				"StrucName": "ObjectProperty",
+				"className": "CurveVector",
+				"importName": "C_Ballistic_Sawnoff",
+				"name": "C_Ballistic_Sawnoff",
+				"packagePath": "/Game/Blueprints/Weapons/BallisticData/C_Ballistic_Sawnoff.uasset"
 			},
 			"DamageType": {
 				"StrucName": "ObjectProperty",
@@ -38,13 +42,15 @@
 				"name": "DmgType_Gun_C",
 				"packagePath": "/Game/Blueprints/Damage_Type/DmgType_Gun.uasset"
 			},
-			"HitDamage": 22,
+			"HitDamage": 20,
 			"InitialSpeed": 330,
+			"LowerClampDamage": 3,
 			"RangeModifier": 0.93,
 			"ReferenceDistance": 200,
 			"StrucName": "WeaponTrajectoryConfig",
 			"TravelDistanceMax": 150,
-			"bUseAdvancedBallistics": false
+			"bCanProduceCrackSound": false,
+			"bUseMaxDamageDistance": true
 		}
 	}
 }

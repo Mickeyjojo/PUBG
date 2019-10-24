@@ -3,6 +3,13 @@
 		"@SuperName": "Class",
 		"@TemplateName": "Default__WeaponGunDataAsset",
 		"ClassName": "WeaponGunDataAsset",
+		"ConsoleWeaponRecoilData": {
+			"StrucName": "ObjectProperty",
+			"className": "WeaponGunRecoilData",
+			"importName": "WeapKar98k_RecoilDataConsole",
+			"name": "WeapKar98k_RecoilDataConsole",
+			"packagePath": "/Game/Blueprints/Weapons/DataAssets/WeapKar98k_RecoilDataConsole.uasset"
+		},
 		"ExportName": "WeapKar98k_WeaponGunData",
 		"WeaponAnimConfig": {
 			"CharacterFire": {

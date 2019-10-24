@@ -112,10 +112,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 17,
-					"index": -18,
+					"importIndex": 19,
+					"index": -20,
 					"name": "AsyncStaticMeshComponent",
-					"pkgIndex": -38
+					"pkgIndex": -42
 				},
 				"StrucName": "WeaponAttachmentAssetData"
 			}
@@ -141,6 +141,13 @@
 			"importName": "Weapon_M14EBR_Fire_LongTail",
 			"name": "Weapon_M14EBR_Fire_LongTail",
 			"packagePath": "/Game/WwiseAssets/Weapons/M14EBR/Weapon_M14EBR_Fire_LongTail.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Heavy_C",
+			"name": "GunImpact_Heavy_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Heavy.uasset"
 		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
@@ -199,9 +206,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationKick": 1.2,
-			"CameraDOF_NearRange": 55,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 40,
 			"IronSightZeroingDistances": [
 				100,
 				200,
@@ -273,10 +277,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 14,
-			"index": -15,
+			"importIndex": 16,
+			"index": -17,
 			"name": "SceneComponent",
-			"pkgIndex": -37
+			"pkgIndex": -41
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

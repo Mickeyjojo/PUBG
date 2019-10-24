@@ -26,6 +26,7 @@
 		},
 		"DroppedMesh": "AssetObject==/Game/Assets/Character/ItemSpawner/ItemSpawner_Item_Head_Lv1_02.ItemSpawner_Item_Head_Lv1_02",
 		"DurabilityMax": 80,
+		"EquipableItemLevelType": "EEquipableItemLevelType::Level1",
 		"EquipedSoundAk": {
 			"StrucName": "ObjectProperty",
 			"className": "AkAudioEvent",
@@ -34,7 +35,7 @@
 			"packagePath": "/Game/WwiseAssets/UI_Sound/UI_Item_Equip/UI_Item_Equip_Head/Play_UI_Item_Equip_Head_EFG.uasset"
 		},
 		"ExportName": "Default__Item_Head_E_02_Lv1_C",
-		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/equipment_helmet01.equipment_helmet01",
+		"HudDisplayEquipIcon": "AssetObject==/Game/UI/HUD/Equipment/EquipmentIcon_Helmet_01.EquipmentIcon_Helmet_01",
 		"Icon": "AssetObject==/Game/UI/item/equipment/icon_equipment_Head_E_02.icon_equipment_Head_E_02",
 		"InventoryPutSoundAk": {
 			"StrucName": "ObjectProperty",

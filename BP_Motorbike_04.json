@@ -474,6 +474,13 @@
 		"StabilizeBone_High": "Stabilizer_High",
 		"StabilizeBone_Low": "Stabilizer_Low",
 		"StabilizeInitialTimer": 1,
+		"StickyHighSpeedSettings": {
+			"ForwardDamping": 1,
+			"LowForwardSpeedTime": 15,
+			"LowSideSpeedTime": 15,
+			"SideDamping": 1,
+			"StrucName": "StickyConstraintConfig"
+		},
 		"StopSound": {
 			"StrucName": "ObjectProperty",
 			"className": "AkAudioEvent",
@@ -546,6 +553,7 @@
 			"name": "VehicleXRayComponent"
 		},
 		"bApplyCustomAnimUpdaterateSettings": true,
+		"bEvalStickyConstraint": true,
 		"bProcessAutoEject": true,
 		"bProcessCounterSteerNoInput": true,
 		"bProcessCounterSteerOnRemote": true,
@@ -703,7 +711,8 @@
 		"@SuperName": "Class",
 		"@TemplateName": "Default__CameraComponent",
 		"ClassName": "CameraComponent",
-		"ExportName": "BP_Motorbike_04_C.FirstPersonCameraInVehicle_GEN_VARIABLE"
+		"ExportName": "BP_Motorbike_04_C.FirstPersonCameraInVehicle_GEN_VARIABLE",
+		"bAutoActivate": false
 	},
 	"FirstPersonSpringArmInVehicle": {
 		"@Remaining": 28,
@@ -1320,7 +1329,7 @@
 		"Falloff": "RIF_Linear",
 		"ForceStrength": 20000000,
 		"ObjectTypesToAffect": [
-			104,
+			108,
 			2,
 			0,
 			0,

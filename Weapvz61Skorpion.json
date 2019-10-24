@@ -124,10 +124,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 20,
-					"index": -21,
+					"importIndex": 22,
+					"index": -23,
 					"name": "AsyncStaticMeshComponent",
-					"pkgIndex": -45
+					"pkgIndex": -49
 				},
 				"StrucName": "WeaponAttachmentAssetData"
 			},
@@ -140,10 +140,10 @@
 					"StrucName": "ObjectProperty",
 					"className": "Class",
 					"classPackage": "/Script/CoreUObject",
-					"importIndex": 20,
-					"index": -21,
+					"importIndex": 22,
+					"index": -23,
 					"name": "AsyncStaticMeshComponent",
-					"pkgIndex": -45
+					"pkgIndex": -49
 				},
 				"StrucName": "WeaponAttachmentAssetData"
 			}
@@ -176,6 +176,13 @@
 			"importName": "Weapons_Scorpion_Fire_LongTail",
 			"name": "Weapons_Scorpion_Fire_LongTail",
 			"packagePath": "/Game/WwiseAssets/Weapons/Scorpion/Weapons_Scorpion_Fire_LongTail.uasset"
+		},
+		"ImpactTemplate": {
+			"StrucName": "ObjectProperty",
+			"className": "BlueprintGeneratedClass",
+			"importName": "GunImpact_Small_C",
+			"name": "GunImpact_Small_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Small.uasset"
 		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
@@ -250,9 +257,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationWeaponClassOverride": "EWeaponClass::Class_SMG",
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 30,
 			"HoldBreathFOV": 60,
 			"IronSightZeroingDistances": [
 				100
@@ -338,10 +342,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 17,
-			"index": -18,
+			"importIndex": 19,
+			"index": -20,
 			"name": "SceneComponent",
-			"pkgIndex": -44
+			"pkgIndex": -48
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

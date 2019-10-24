@@ -89,6 +89,7 @@
 		"BoostGaugeAmount": 60,
 		"CastConfig": {
 			"CastAnim": "ECastAnim::Painkiller",
+			"CastMaxSpeed": 1000,
 			"CastName": {
 				"Key": "856C201E4D3F821BA873C8B03E2EFD7D",
 				"Namespace": "[DAF1AB074F3FE36E7D40DEAB686EE00D]",

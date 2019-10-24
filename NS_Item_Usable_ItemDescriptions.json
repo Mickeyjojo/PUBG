@@ -1,0 +1,16 @@
+{
+	"NS_Item_Usable_ItemDescriptions": {
+		"@Remaining": 4,
+		"@SuperName": "Class",
+		"@TemplateName": "Default__StringTable",
+		"ClassName": "StringTable",
+		"ExportName": "NS_Item_Usable_ItemDescriptions",
+		"KeysToSourceStrings": {
+			"K_GDU_00": "M_ITEM_DESC",
+			"K_GDU_01": "M_ITEM_DESC",
+			"K_GDU_02": "M_ITEM_DESC",
+			"K_GDU_03": "M_ITEM_DESC"
+		},
+		"TableNamespace": "NS_Item_Usable_ItemDescriptions"
+	}
+}

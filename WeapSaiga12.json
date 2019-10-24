@@ -140,12 +140,9 @@
 		"ImpactTemplate": {
 			"StrucName": "ObjectProperty",
 			"className": "BlueprintGeneratedClass",
-			"importName": "GunImpact_Shotgun_C",
-			"name": "GunImpact_Shotgun_C",
-			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Shotgun.uasset"
-		},
-		"LightImpactTemplate": {
-			"StrucName": "ObjectProperty"
+			"importName": "GunImpact_Med_Shotgun_C",
+			"name": "GunImpact_Med_Shotgun_C",
+			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Med_Shotgun.uasset"
 		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
@@ -210,9 +207,6 @@
 		"UseCustomCrosshair": true,
 		"WeaponConfig": {
 			"AnimationKick": 0.8,
-			"CameraDOF_NearRange": 60,
-			"CameraDOF_Power": 1,
-			"CameraDOF_Range": 30,
 			"HoldBreathFOV": 60,
 			"IronSightZeroingDistances": [
 				50

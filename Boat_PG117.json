@@ -257,10 +257,7 @@
 			"className": "TslVehicleXRayComponent",
 			"exportName": "Default__Boat_PG117_C.VehicleXRayComponent",
 			"name": "VehicleXRayComponent"
-		},
-		"VelocityFOVHigh": 1750,
-		"VelocityFOVLow": 1250,
-		"bUseDynamicCamera": true
+		}
 	},
 	"DriverSeat": {
 		"@Remaining": 28,
@@ -1528,6 +1525,27 @@
 		"@SuperName": "Class",
 		"@TemplateName": "VehicleEffectComponent",
 		"ApplyDestroyedMaterialDelay": 0.3,
+		"CameraEffectSettings": {
+			"AccelerationMovementScalar": 0.1,
+			"AccelerationMovementSizeClamp": 3,
+			"CameraOffsetInterpSpeed": 1,
+			"StaticOffset": {
+				"StrucName": "Vector",
+				"value": [
+					-5,
+					0,
+					-5
+				]
+			},
+			"StrucName": "VehicleCameraEffectSettings",
+			"VelocityToFovInMap": {
+				"StrucName": "Vector2D",
+				"value": [
+					1250,
+					1750
+				]
+			}
+		},
 		"ClassName": "TslVehicleEffectComponent",
 		"DestroyedMaterialMap": {
 			"0": {

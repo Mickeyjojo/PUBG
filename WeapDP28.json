@@ -66,16 +66,6 @@
 			"name": "Weapon_DP28_Fire_LongTail",
 			"packagePath": "/Game/WwiseAssets/Weapons/DP28/Weapon_DP28_Fire_LongTail.uasset"
 		},
-		"ImpactTemplate": {
-			"StrucName": "ObjectProperty",
-			"className": "BlueprintGeneratedClass",
-			"importName": "GunImpact_Large_TN_C",
-			"name": "GunImpact_Large_TN_C",
-			"packagePath": "/Game/Blueprints/Weapons/WeaponConfig/GunImpact_Large_TN.uasset"
-		},
-		"LightImpactTemplate": {
-			"StrucName": "ObjectProperty"
-		},
 		"Mesh3P": {
 			"StrucName": "ObjectProperty",
 			"className": "WeaponMeshComponent",
@@ -147,9 +137,6 @@
 			"StrucName": "WeaponBasicAnim"
 		},
 		"WeaponConfig": {
-			"CameraDOF_NearRange": 50,
-			"CameraDOF_Power": 1.5,
-			"CameraDOF_Range": 35,
 			"HoldBreathFOV": 52,
 			"IronSightZeroingDistances": [
 				100,
@@ -242,10 +229,10 @@
 			"StrucName": "ObjectProperty",
 			"className": "Class",
 			"classPackage": "/Script/CoreUObject",
-			"importIndex": 16,
-			"index": -17,
+			"importIndex": 14,
+			"index": -15,
 			"name": "SceneComponent",
-			"pkgIndex": -40
+			"pkgIndex": -36
 		},
 		"ComponentTemplate": {
 			"StrucName": "ObjectProperty",

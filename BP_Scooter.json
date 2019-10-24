@@ -128,6 +128,33 @@
 			"name": "VehicleMesh"
 		},
 		"ClassName": "PhysicsConstraintComponent",
+		"ConstraintInstance": {
+			"ProfileInstance": {
+				"AngularDrive": {
+					"AngularDriveMode": "EAngularDriveMode::TwistAndSwing",
+					"SlerpDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive"
+					},
+					"StrucName": "AngularDriveConstraint",
+					"SwingDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive"
+					},
+					"TwistDrive": {
+						"Damping": 0,
+						"Stiffness": 0,
+						"StrucName": "ConstraintDrive",
+						"bEnablePositionDrive": true,
+						"bEnableVelocityDrive": true
+					}
+				},
+				"StrucName": "ConstraintProfileProperties"
+			},
+			"StrucName": "ConstraintInstance"
+		},
 		"ExportName": "Default__BP_Scooter_C.ConstraintComponent"
 	},
 	"DefaultSceneRoot_GEN_VARIABLE": {
@@ -222,8 +249,10 @@
 			"exportName": "Default__BP_Scooter_C.ConstraintComponent",
 			"name": "ConstraintComponent"
 		},
+		"ConstraintDamperForce": 20,
+		"ConstraintSpringForce": 250,
 		"ContactAlpha_FallRate": 3.5,
-		"ContactAlpha_LowerClamp": 0.04,
+		"ContactAlpha_LowerClamp": 0,
 		"ContactAlpha_MapPitchIn": {
 			"StrucName": "Vector2D",
 			"value": [
@@ -393,6 +422,13 @@
 		"StabilizeBone_High": "Stabilizer_High",
 		"StabilizeBone_Low": "Stabilizer_Low",
 		"StabilizeInitialTimer": 1,
+		"StickyHighSpeedSettings": {
+			"ForwardDamping": 1,
+			"LowForwardSpeedTime": 15,
+			"LowSideSpeedTime": 15,
+			"SideDamping": 1,
+			"StrucName": "StickyConstraintConfig"
+		},
 		"StopSound": {
 			"StrucName": "ObjectProperty",
 			"className": "AkAudioEvent",
@@ -465,14 +501,15 @@
 			"name": "VehicleXRayComponent"
 		},
 		"bApplyCustomAnimUpdaterateSettings": true,
+		"bEvalStickyConstraint": true,
 		"bProcessAutoEject": true,
 		"bProcessCounterSteerOnRemote": true,
 		"bProcessCounterSteering": true,
 		"bRunStabilizeOnEntry": true,
-		"bStabilizeInAir": true,
 		"bStabilizeOnRemoteClient": true,
 		"bStabilizeOnServer": true,
 		"bUseAnchoring": true,
+		"bUseConstraintStabilize": true,
 		"bUseKickstandStabilize": true,
 		"bUseSleepForcingOnStabilize": false
 	},
@@ -833,8 +870,8 @@
 		"InertiaTensorScale": {
 			"StrucName": "Vector",
 			"value": [
-				12,
-				3.3,
+				7,
+				4,
 				5
 			]
 		},
@@ -1174,7 +1211,7 @@
 		"Falloff": "RIF_Linear",
 		"ForceStrength": 20000000,
 		"ObjectTypesToAffect": [
-			43,
+			59,
 			2,
 			0,
 			0,
@@ -1443,6 +1480,7 @@
 	"SCS_Node_5": {
 		"@SuperName": "Class",
 		"@TemplateName": "Default__SCS_Node",
+		"AttachToName": "Mesh_Root",
 		"ChildNodes": [
 			{
 				"StrucName": "ObjectProperty",
@@ -1838,12 +1876,19 @@
 			"value": [
 				0,
 				0,
-				140
+				115
 			]
 		},
 		"TargetArmLength": 400,
+		"TargetOffset": {
+			"StrucName": "Vector",
+			"value": [
+				0,
+				0,
+				25
+			]
+		},
 		"bAutoActivate": false,
-		"bEnableCameraLag": true,
 		"bEnableCameraRotationLag": true,
 		"bInheritPitch": false,
 		"bInheritRoll": false
@@ -1936,7 +1981,7 @@
 			"StaticOffset": {
 				"StrucName": "Vector",
 				"value": [
-					-20,
+					-15,
 					0,
 					-10
 				]

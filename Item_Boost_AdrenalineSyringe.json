@@ -67,6 +67,7 @@
 		"@TemplateName": "Default__CastableItem",
 		"CastConfig": {
 			"CastAnim": "ECastAnim::Adrenaline",
+			"CastMaxSpeed": 1000,
 			"CastName": {
 				"Key": "88DBA74545CC8D39E9069B8ADB6BAF24",
 				"Namespace": "[83BE7EE74F712E9C0AC94E84AC5385CF]",
